@@ -1,0 +1,265 @@
+.container{
+    display: flex;
+}
+.ul{
+    margin-right: 20px;
+}
+.nav-list {
+    display: inline;
+    margin-right: 15px;
+    font-size: 24px;
+}
+.nav-link{color: black;
+    text-decoration: none;
+
+
+}
+.cta-button {
+    background-color: rgb(47, 44, 44);
+    color: white; 
+    padding: 10px 20px;
+    border: black; 
+    border-radius: 5px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+}
+.intro{
+    background-color: rgb(204, 164, 164);
+    padding: 150px;
+    margin-bottom: -90px;
+    color: white;
+    font-size: 20px;
+    
+}
+.cta-button:hover {
+    background-color: blue;
+}
+.resized-image{
+    width: 70%;
+    height: 100%;
+    margin-left: 400px;
+
+}
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Font/gotham.woff') format('woff');
+}
+
+.knowus{
+    font-family: 'Gotham', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-left: 25%;
+    padding: 10px;
+    line-height: 2.0;
+    color: rgb(39, 39, 42);
+}
+
+.cta-container {
+    display: flex;
+    align-items: center;
+}
+
+.arrow-icon::before {
+    content: "\2190"; 
+    font-size: 20px;
+    margin-right: 10px; 
+}
+.black-line {
+    width: 100%;
+    height: 3px; 
+    background-color: black;
+}
+#textline{
+    text-align: center;
+    color: black;
+}
+
+.image-block {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.images{
+    display: flex;
+}
+.image-block img {
+    width: 100%;
+    height: auto;
+    display: block;
+    
+}
+
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+body {
+    font-family: 'Gotham', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+#textdesp{
+    margin: 20px;
+    line-height: 1.5;
+}
+
+.contact-container {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.footer-info p {
+    font-size: 14px;
+    text-align: right;
+    margin: 5px 0;
+}
+
+.footer-info a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-info a:hover {
+    text-decoration: underline;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#bold{
+    font-weight: bold;
+}
+.services-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.why-choose-us {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.containers {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.reasons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.reason {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    text-align: left;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
